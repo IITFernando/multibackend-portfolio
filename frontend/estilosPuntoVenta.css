@@ -1,0 +1,227 @@
+body
+{
+    background-color: rgb(70, 19, 19);
+    background-color: #0461cf;
+    /* background-attachment: fixed;  */ /* Opcional: imagen fija al fondo */
+    color: brown;
+    color: #054fb9;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    margin: 0;
+    text-shadow: 5px 5px 5px #b3c7f7;
+}
+
+h2
+{
+    color: #8babf1;
+}
+
+.header
+{
+    background-color: whitesmoke;
+    /* position: absolute; */
+    /* top:10px; */
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.video
+{
+    /* position: absolute; */
+    margin: auto;
+    /* top:122px; */
+    /* left: 585px; */
+    opacity: 0.7;
+}
+
+.productos
+{
+    /* background-color: whitesmoke; */
+    /* position: absolute; */
+    /* left:50px;
+    top:150px; */
+    width: 500px;
+}
+
+
+Select
+{
+    background-color: antiquewhite;
+    color: red;
+    color: #054fb9;
+    font-family: 'Times New Roman', Times, serif;
+    outline: 2px solid brown;
+    outline: 2px solid #054fb9;
+    white-space: pre;
+}
+
+select:hover
+{
+  background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+  border-color: #ccc; /* Cambia el color del borde al pasar el mouse */
+  cursor: pointer; /* Cambia el cursor a mano al pasar el mouse */
+}
+
+/* input
+{
+    background-color: whitesmoke;
+    color:brown;
+    margin-right: 5px;
+    width: 200px;
+}
+
+label
+{
+    color: yellow;
+    display:inline-block;
+    margin-left: 2px;
+    margin-right: 5px;
+    width: 205px;
+}
+
+.ingresoProducto
+{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+} */
+
+.lista
+{
+    background-color: greenyellow;
+}
+
+.ticket
+{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    width: 500px;
+}
+
+.detalle
+{   
+    outline: 2px solid #054fb9;
+    width: 100%;
+}
+
+.detalleLinea
+{
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.total
+{
+    outline: 2px solid #054fb9;
+    width: 100%;
+}
+
+.btnBorrar
+{
+    height: 20px;
+    padding: 0;
+    margin-bottom: 4px;
+    width: 40px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #900; /* rojo oscuro */
+    font-size: 1rem;    
+}
+
+.btnBorrar:hover
+{
+  transform: scale(1.2);
+}
+
+.btnImprimir
+{
+    align-items: center;
+    background-color: #0073e6;
+    border-radius: 15px;
+    outline: 2px solid #054fb9;
+    display: flex;
+    font-weight: bold;
+    height:30px;
+}
+
+.btnImprimir:hover
+{
+    box-shadow: inset 0px 0px 15px white;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.btnCancelar
+{
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: #900;
+    outline: 2px solid #900;
+    display: flex;
+    height:30px;
+    font-weight: bold;
+}
+
+.btnCancelar:hover
+{
+    box-shadow: inset 0px 0px 15px red;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.botones
+{
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: space-between ;
+    padding:0 10px 0 10px;
+}
+.cantidad
+{
+    height: 20px;
+    padding: 0;
+    width: 40px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #054fb9;
+    border-radius:5px;
+    cursor: pointer;
+    color: #0073e6; /* rojo oscuro */
+    font-size: 1rem;  
+    text-align: right;  
+}
+
+.contenedorProceso
+{
+    width: 95%;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: start;
+}
+
+.raiz
+{
+    display: grid;
+    padding-top: 10px;
+    grid-template-rows: auto 1fr;
+    gap:10px;
+    min-height: 100vh;
+    align-items: start;
+    width: 100%;
+    align-items: start;
+}
